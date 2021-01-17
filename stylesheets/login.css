@@ -2,7 +2,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
+    background-image: url('../img/loginback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 :root {
@@ -21,6 +23,7 @@ header {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    background-color: var(--white);
 }
 
 #icon-section {
@@ -77,9 +80,10 @@ a:hover {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 56px;
+    font-size: 3em;
     line-height: 84px;
     letter-spacing: 0.06em;
+    margin-bottom: -30px;
 
     color: #383F4B;
 }
@@ -87,15 +91,15 @@ a:hover {
 .greeting h2{
 
     width: 100%;
-    height: 42px;
     text-align: center;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 1.3em;
     line-height: 37px;
     letter-spacing: 0.06em;
+    margin-top: 20px;
 
     color: #383F4B;
 }
@@ -109,7 +113,7 @@ a:hover {
 
     width: 100%;
     margin-top: 10px;
-    height: 64px;
+    height: 5em;
     align-self: center;
 
     background: #F2B1B1;
@@ -125,11 +129,11 @@ a:hover {
     margin-top: 10px;
     width: 100%;
     height: 40px;
+    border-radius: 12px;
 }
 
 #sign-in-form {
-
-    max-width: 40%;
+    max-width:30%;
 	height: auto;
 	display: block;
 	margin: 0 auto;
@@ -143,12 +147,13 @@ a:hover {
 #sign-in-form p {
     text-align: center;
     color: black;
+    font-size: .5em;
 }
 
 #started-btn {
    
     width: 100%;
-    height: 64px;
+    height: 5em;
     align-self: center;
 
     background: #F2B1B1;
