@@ -103,6 +103,7 @@ a:hover {
     border-radius: 50%;
     border-style: solid;
     border-width: 10px;
+    border-color: var(--lightB);
     align-self: center;
     margin: 10px auto auto auto;
 }
