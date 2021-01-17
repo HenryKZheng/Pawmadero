@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="login.css">
         <title> Login Page</title>
     </head>
 
     <body> 
         <h1> Welcome Back! </h1>
         <h2> we've missed you! </h2>
-     <form action="/action_page.php">
-        <label for="username">Username :</label>
-        <input type="text" id="username" name="username"><br><br>
-        <label for="password">Password :</label>
-        <input type="text" id="password" name="password"><br><br>
-        <input type="submit" value="Submit">
-    </form>
 
-    <p> don't have an account? </p>
-    <form action = "/action_page.php">
-        <input type="started" value="Let's get started!"> 
-    </form>
+            <form action="/action_page.php">
+                <div id="input">
+                    <label for="username">Username :</label>
+                    <input type="text" id="username" name="username"><br><br>
+                
+                 <label for="password">Password :</label>
+                 <input type="text" id="password" name="password"><br><br>
+
+                 <input type="submit" value="submit">
+                </div>
+             </form>
+
+        <div id="create">
+            <p> or </p>
+            <p> don't have an account? </p>
+            <form action = "/action_page.php">
+                <button id="started-btn"> <p> Let's get started! </p> </button> 
+        </div>
+
     </body>
-
 </html>
