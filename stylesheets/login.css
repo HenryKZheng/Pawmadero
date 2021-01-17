@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --white: #ffffff;
+    --brown: #755848;
+    --pink: #FFCFCF;
+    --lightB: #d9c7b2;
+}
+
 h1{
     position: absolute;
     width: 480px;
@@ -63,6 +77,10 @@ h2{
     font-size: 20px;
     line-height: 30px;
     color: #383F4B;
+}
+
+#sign-in-form {
+    background-color: var(--pink);
 }
 
 
