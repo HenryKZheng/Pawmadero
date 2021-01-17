@@ -2,31 +2,47 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="../stylesheets/login.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <title> Login Page</title>
     </head>
 
     <body> 
-        <h1> Welcome Back! </h1>
-        <h2> we've missed you! </h2>
-
-            <form action="/action_page.php" id="sign-in-form">
-                <div id="input">
-                    <label for="username">Username :</label>
-                    <input type="text" id="username" name="username"><br><br>
+        <header id = "header">
+            <a href="index.html">
+            <div id="icon-section">
                 
-                 <label for="password">Password :</label>
-                 <input type="text" id="password" name="password"><br><br>
+                    <i class="fas fa-paw" style="font-size:40px" id="icon"></i>
+                    <h1 class = "app-name"> pawmodoro </h1> 
+            </div>
+            </a>
+            
+            <div id="nav-bar"> 
+                <ul> 
+                    <li> <a href="index.html" class="nav-link"> TIMER </a></li>
+                    <li> <a href="insights.html" class="nav-link"> TASKS </a> </li>
+                    <li> <a href="#" class="nav-link"> PROFILE </a> </li>
+    
+                </ul>
+                <button id="login-btn"> <a href="login.html"> <p> LOGIN </p> </a> </button>
+            </div>
+    
+        </header>
 
-                 <input type="submit" value="submit">
-                </div>
-             </form>
-
-        <div id="create">
-            <p> or </p>
-            <p> don't have an account? </p>
-            <form action = "/action_page.php">
-                <button id="started-btn"> <p> Let's get started! </p> </button> 
+        <div class="greeting">
+            <h1> Welcome Back! </h1>
+            <h2> we've missed you! </h2>
         </div>
+            <form action="/action_page.php" id="sign-in-form">
+                <input type="text" id="username" placeholder="Username">
+                
+                 <input type="text" id="password" placeholder="Password">
 
+                <button id="sign-in-btn"> Sign In </button>
+
+                <p> or </p>
+                <p> don't have an account? </p>
+
+                <button id="started-btn"> <p> Let's get started! </p> </button> 
+             </form>
     </body>
 </html>

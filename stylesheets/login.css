@@ -10,14 +10,69 @@ body {
     --brown: #755848;
     --pink: #FFCFCF;
     --lightB: #d9c7b2;
+    --darkPink: #F2B1B1;
 }
 
-h1{
-    position: absolute;
-    width: 590px;
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#icon-section {
+    display: flex;
+    color: var(--brown);
+}
+
+.app-name {
+    display: flex;
+    align-self: center;
+}
+
+#icon{
+    display: flex;
+    align-self: center;
+    margin-right: 10px;
+}
+
+#nav-bar {
+    display: flex;
+    margin: 0 0 0 auto;
+    overflow: auto;
+}
+
+#nav-bar ul {
+    display: flex;
+    margin: 0 0 0 auto;
+    justify-content: space-around;
+    width: 20vw;
+    align-self: center;
+}
+
+#nav-bar ul li {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color: var(--darkPink);
+}
+
+.greeting h1{
+
+    width: 100%;
     height: 74px;
-    left: 1014px;
-    top: 325px;
+    margin-top: 10%;
+    text-align: center;
 
     font-family: Poppins;
     font-style: normal;
@@ -29,12 +84,11 @@ h1{
     color: #383F4B;
 }
 
-h2{
-    position: absolute;
-    width: 332px;
+.greeting h2{
+
+    width: 100%;
     height: 42px;
-    left: 1109px;
-    top: 425px;
+    text-align: center;
 
     font-family: Poppins;
     font-style: normal;
@@ -46,42 +100,68 @@ h2{
     color: #383F4B;
 }
 
-#input{
-    position: absolute;
-    width: 128px;
-    height: 34px;
-    left: 1009px;
-    top: 554px;
-    
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    
-    color: #C4C4C4;
+#username {
+    background: #FFFFFF;
+    border-radius: 12px;
 }
 
-#create{
-    position: absolute;
-    width: 237px;
-    height: 30px;
-    left: 602px;
-    top: 600px;
+#sign-in-btn{
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #383F4B;
+    width: 100%;
+    margin-top: 10px;
+    height: 64px;
+    align-self: center;
+
+    background: #F2B1B1;
+    border-radius: 12px;
+}
+
+#username {
+    width: 100%;
+    height: 40px;
+}
+
+#password {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
 }
 
 #sign-in-form {
-    background-color: var(--pink);
+
+    max-width: 40%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	color: #F3F3F3;
+    padding: 1rem 3rem;
+    
+    background: linear-gradient(0deg, #FFFFFF -40.2%, rgba(255, 255, 255, 0) 0%), #FFDCDC;
+    border-radius: 37px;
 }
 
+#sign-in-form p {
+    text-align: center;
+    color: black;
+}
 
+#started-btn {
+   
+    width: 100%;
+    height: 64px;
+    align-self: center;
 
+    background: #F2B1B1;
+    border-radius: 12px;
+}
 
+#login-btn {
+    height: 40%;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 30px;
+    font-weight: bold;
+    background-color: var(--darkPink);
+}
 

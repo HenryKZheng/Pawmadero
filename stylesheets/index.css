@@ -11,6 +11,7 @@
     --pink: #FFCFCF;
     --lightB: #d9c7b2;
     --darkPink: #F2B1B1;
+    --grey: #949494;
 }
 
 body{
@@ -85,42 +86,46 @@ a:hover {
     background-color: var(--darkPink);
 }
 
-.container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
+.work-state-info {
+    text-align: center;
+    margin: 13% auto auto auto;
 }
 
-#time {
-    /*
-    display: flex;
-    margin: auto;
-    width: 400px;
-    height: 400px;
-    padding: 10px;
-    margin-top: 10%;
-    text-align: center;
-    */
+.work-state-info #work-state {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
 
-    position: absolute;
-    width: 323px;
-    height: 323px;
+.container {
+    background-color: var(--white);
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    align-self: center;
+    margin: 10px auto auto auto;
+}
+
+
+#time {
+    width: 50%;
+    padding: 40px;
     left: 566px;
     top: 316px;
 
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: bold;
     color: var(--brown);
     margin: auto;
 }
 
-#controls {
-    position: absolute;
-    width: 133.22px;
-    height: 33px;
-    left: 658px;
-    top: 544px;
+div #controls {
+    align-self: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
 #controls i {
@@ -129,12 +134,33 @@ a:hover {
     font-size: 30px;
 }
 
+#left-arrow {
+
+    position: absolute;
+    left: 5.07%;
+    right: 92.78%;
+    top: 50.39%;
+    bottom: 44.63%;
+
+    color: var(--grey);
+    font-size: 30px;
+}
+
+#right-arrow {
+
+    position: absolute;
+    left: 94.93%;
+    right: 2.92%;
+    top: 50.39%;
+    bottom: 44.63%;
+
+    color: var(--grey);
+    font-size: 30px;
+}
+
 .reset-icon {
     position: absolute;
-    left: 658px;
-    right: 52.5%;
-    top: 544px;
-    bottom: 43.85%;
+    margin-top: 10px;
     background: #D9C7B2;
 }
 
@@ -155,4 +181,17 @@ a:hover {
     height: 26.89px;
     left: 770.44px;
     top: 546.44px;
+}
+
+.task-info {
+    margin: 20px auto auto auto;
+    width: 50%;
+
+    background-color: var(--white);
+    padding: 10px;
+    align-self: center;
+
+    text-align: center;
+
+    border-radius: 25px;
 }

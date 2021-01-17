@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pawmodoro</title>
     <link rel="stylesheet" type="text/css" href="../stylesheets/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
@@ -20,17 +20,21 @@
         <div id="nav-bar"> 
             <ul> 
                 <li> <a href="index.html" class="nav-link"> TIMER </a></li>
-                <li> <a href="insights.html" class="nav-link"> TASKS </a> </li>
+                <li> <a href="#" class="nav-link"> TASKS </a> </li>
                 <li> <a href="#" class="nav-link"> PROFILE </a> </li>
-
             </ul>
-            <button id="login-btn"> <p> LOGIN </p> </button>
+            <button id="login-btn"> <a href="login.html"> <p> LOGIN </p> </a> </button>
         </div>
 
     </header>
 
+        <div class="work-state-info">
+            <p id="work-state"> <strong> work session </strong></p>
+            <p> 1/16/2021 </p>
+        </div>
 
-    <div class="container"> 
+        <div class="container">
+            <i class="fas fa-angle-left" id="left-arrow"></i>
             <div id="time">
                 25:00 
             </div>
@@ -39,9 +43,14 @@
                 <i class="fas fa-play" class="play-icon"></i>
                 <i class="fas fa-pause" class="pause-icon"></i>
              </div>
-    </div>
-     
+             <i class="fas fa-angle-right" id="right-arrow"></i>
 
+        </div>
+
+        <div class="task-info">
+            <p id="curr-task"> task: statistics hw </p>
+            <p id="next-task"> upcoming task: geology lab</p>
+        </div>
 
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
