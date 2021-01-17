@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 * {
-    background-color: var(--pink);
     font-family: 'Poppins', sans-serif;
+
 }
 
 :root {
     --white: #ffffff;
-    --brown: #927c70;
-    --pink: #EAD1d1;
+    --brown: #755848;
+    --pink: #FFCFCF;
     --lightB: #d9c7b2;
+}
+
+body{
+   
+   /* background-image: linear-gradient(35deg, var(--pink),  #ffffff);  */ 
+    background-image: url('../img/mountain.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -24,7 +32,7 @@ header {
 
 #icon-section {
     display: flex;
-
+    color: var(--brown);
 }
 
 .app-name {
@@ -81,6 +89,7 @@ a:hover {
     margin: 0 auto;
 }
 
+/*
 #time p {
     width: 100%;
     text-align: center;
@@ -89,8 +98,10 @@ a:hover {
     color: var(--brown);
     margin: auto;
 }
+*/
 
 #time {
+    /*
     display: flex;
     margin: auto;
     width: 400px;
@@ -98,7 +109,59 @@ a:hover {
     padding: 10px;
     margin-top: 10%;
     text-align: center;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 10px;
+    */
+
+    position: absolute;
+    width: 323px;
+    height: 323px;
+    left: 566px;
+    top: 316px;
+
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: var(--brown);
+    margin: auto;
+}
+
+#controls {
+    position: absolute;
+    width: 133.22px;
+    height: 33px;
+    left: 658px;
+    top: 544px;
+}
+
+#controls i {
+    margin-right: 10px;
+    color: var(--lightB);
+    font-size: 30px;
+}
+
+.reset-icon {
+    position: absolute;
+    left: 658px;
+    right: 52.5%;
+    top: 544px;
+    bottom: 43.85%;
+    background: #D9C7B2;
+}
+
+.play-icon {
+    position: absolute;
+    width: 33px;
+    height: 25px;
+    left: 740px;
+    top: 544px;
+
+    background: #D9C7B2;
+    transform: rotate(90deg);
+}
+
+.pause-icon {
+    position: absolute;
+    width: 20.78px;
+    height: 26.89px;
+    left: 770.44px;
+    top: 546.44px;
 }
