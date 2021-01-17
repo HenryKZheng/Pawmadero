@@ -195,6 +195,8 @@ div #controls {
     text-align: center;
 
     border-radius: 25px;
+
+    box-shadow: 5px 10px 18px #888888;
 }
 
 #curr-task {
@@ -215,6 +217,8 @@ div #controls {
     align-self: center;
     margin: 0px auto auto 40%;
     width: 275px;
+    box-shadow: 5px 10px 18px #888888;
+
 }
 
 #task-list {
@@ -228,4 +232,11 @@ div #controls {
     color: black;
 
     background-color: var(--white)
+}
+
+#task {
+    height: 500px;
+    background-image: url(../img/taskback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
