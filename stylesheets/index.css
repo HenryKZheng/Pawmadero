@@ -10,6 +10,7 @@
     --brown: #755848;
     --pink: #FFCFCF;
     --lightB: #d9c7b2;
+    --darkPink: #F2B1B1;
 }
 
 body{
@@ -71,7 +72,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: var(--white);
+    color: var(--darkPink);
 }
 
 #login-btn {
@@ -81,6 +82,7 @@ a:hover {
     margin: auto;
     margin-right: 30px;
     font-weight: bold;
+    background-color: var(--darkPink);
 }
 
 .container {
@@ -88,17 +90,6 @@ a:hover {
     width: 100%;
     margin: 0 auto;
 }
-
-/*
-#time p {
-    width: 100%;
-    text-align: center;
-    font-size: 100px;
-    font-weight: bold;
-    color: var(--brown);
-    margin: auto;
-}
-*/
 
 #time {
     /*
