@@ -1,0 +1,71 @@
+h1{
+    position: absolute;
+    width: 480px;
+    height: 66px;
+    left: 481px;
+    top: 187px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 84px;
+    letter-spacing: 0.06em;
+
+    color: #383F4B;
+}
+
+h2{
+    position: absolute;
+    width: 270px;
+    height: 38px;
+    left: 556px;
+    top: 273px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    /* identical to box height */
+    letter-spacing: 0.06em;
+
+    color: #383F4B;
+}
+
+#input{
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    left: 519px;
+    top: 394px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #C4C4C4;
+}
+
+#create{
+    position: absolute;
+    width: 237px;
+    height: 30px;
+    left: 602px;
+    top: 600px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #383F4B;
+}
+
+
+
+
+
