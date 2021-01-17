@@ -1,0 +1,55 @@
+* {
+    font-family: Gotham, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-top: -10px;
+}
+
+header h1 {
+    align-self: center;
+}
+
+header i {
+    align-self: center;
+    margin-right: 10px;
+}
+
+#nav-bar {
+    display: flex;
+    margin: 0 0 0 auto;
+    overflow: auto;
+}
+
+#nav-bar ul {
+    display: flex;
+    margin: 0 0 0 auto;
+    justify-content: space-around;
+    width: 35vw;
+    align-self: center;
+}
+
+#nav-bar ul li {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color:burlywood;
+}
+
+#login-btn {
+    height: 40%;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto;
+    margin-right: 30px;
+}
