@@ -1,2 +1,2 @@
 # RoseHack
-<img src="../img/frontpage.png" alt="about" />
+<img src="./img/frontpage.png" alt="about" />
