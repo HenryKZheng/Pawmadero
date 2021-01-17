@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 * {
-    font-family: Gotham, Arial, sans-serif;
     background-color: var(--pink);
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
+    --white: #ffffff;
     --brown: #927c70;
     --pink: #EAD1d1;
-    --lightB: #d9c7b2
+    --lightB: #d9c7b2;
 }
 
 header {
@@ -19,11 +22,18 @@ header {
     width: 100%;
 }
 
-header h1 {
+#icon-section {
+    display: flex;
+
+}
+
+.app-name {
+    display: flex;
     align-self: center;
 }
 
-header i {
+#icon{
+    display: flex;
     align-self: center;
     margin-right: 10px;
 }
@@ -38,7 +48,7 @@ header i {
     display: flex;
     margin: 0 0 0 auto;
     justify-content: space-around;
-    width: 35vw;
+    width: 20vw;
     align-self: center;
 }
 
@@ -53,7 +63,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: var(--brown);
+    color: var(--white);
 }
 
 #login-btn {
@@ -62,6 +72,7 @@ a:hover {
     border-radius: 5px;
     margin: auto;
     margin-right: 30px;
+    font-weight: bold;
 }
 
 .container {
@@ -70,16 +81,24 @@ a:hover {
     margin: 0 auto;
 }
 
+#time p {
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: var(--brown);
+    margin: auto;
+}
+
 #time {
     display: flex;
     margin: auto;
-    width: 100%;
+    width: 400px;
+    height: 400px;
     padding: 10px;
     margin-top: 10%;
-}
-
-#time h2 {
     text-align: center;
-    font-size: 100px;
-    color: var(--brown);
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
 }

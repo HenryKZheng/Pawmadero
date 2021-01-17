@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 * {
     font-family: Gotham, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
